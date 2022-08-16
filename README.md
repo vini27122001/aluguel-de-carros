@@ -1,104 +1,70 @@
-# aluguel-de-carros
+# Getting Started with Create React App
 
-Prototipo projeto aluguel de carros: https://www.figma.com/proto/RdCH4RcUorFIw6HVABjA3S/projeto-web2?node-id=3%3A2&scaling=min-zoom&page-id=1%3A10&starting-point-node-id=3%3A2
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Caixas de Diálogo
+## Available Scripts
 
-- [ ] prompt
-- [ ] alert
-- [ ] confirm
+In the project directory, you can run:
 
-Temporizadores
+### `npm start`
 
-- [ ] setInterval
-- [ ] setTimeout
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Funções
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- [ ] Função anônima com argumento
-- [ ] Função anônima sem argumento
-- [ ] Função anônima com retorno
-- [ ] Função auto-executável
-- [ ] Função com nome
-- [ ] Função aninhada/local - declarar uma função dentro de outra
-- [ ] Passagem de uma função como parâmetro
-- [ ] Função Flecha - Arrow Function
+### `npm test`
 
-Eventos
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- [ ] Evento de carregamento do documento - onload
-- [ ] Evento de movimento do mouse
-- [ ] Evento de teclado - usar charCode ou keyCode
-- [ ] Eventos de formulário - onfocus e onblur
-- [ ] Imprimir alguma propriedade do objeto event recebido como parâmetro
-- [ ] Propagação de eventos no modelo bolha (usar target e currentTarget, ou seja, disparar o evento em um elemento filho e capturar em um elemento pai) 
+### `npm run build`
 
-Acesso aos elementos DOM do HTML
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- [ ] Via referência DOM pelo id do elemento HTML
-- [ ] Via getElementByID()
-- [ ] Via getElementsByName()
-- [ ] Via getElementsByTagName()
-- [ ] Via seletores CSS usados na função querySelector() ou querySelectorAll()
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Tratadores de Evento
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- [ ] Especificar o tratador de evento inline
-- [ ] Especificar o tratador de evento no carregamento da página HTML no modo tradicional - no onload
-- [ ] Especificar o tratador de evento no carregamento da página HTML com a função addEventListener - no onload
-- [ ] Usar o operador this em funções tratadoras de eventos.
+### `npm run eject`
 
-Objetos Nativos
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- [ ] Usar pelo menos 3 métodos de manipulação de array
-- [ ] Usar laço de repetição (for..in ou for..of ou forEach)
-- [ ] Usar pelo menos 3 métodos para manipulação de string
-- [ ] String Template
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Objetos
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- [ ] Criar objeto usando função construtora ou notação literal
-- [ ] Criar objetos a partir da definição de classes do ES6
-- [ ] Usar herança prototipal nativa ou herança de classes do ES6
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Qualidade do código
+## Learn More
 
-- [ ] Usar um Style Guide - apresentar o uso de pelo menos 10 regras do style escolhido (sugerido AirBnb)
-- [ ] Usar um lint - mostrar a correção de pelo menos 5 problemas informados pelo lint (sugerido JSHint - usar o arquivo .jshintrc disponível no moodle)
-- [ ] Usar strict mode
-- [ ] Usar Module Pattern
-- [ ] Usar pasta assets e subpastas resources e libraries para organizar o código
-- [ ] Usar let ou const ao invés de var
-- [ ] Nomes de arquivos minúsculos e separados por hífen (dashed-case)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Formulário
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- [ ] Validação de formulário com onsubmit usando os métodos tradicionais
-- [ ] Validação de formulário com HTML5 API
-  - [ ] Customizar as mensagens nos balões de mensagem
-  - [ ] Usar os atributos de validação dos inputs
-  - [ ] Usar expressões regulares
-- [ ] Ler e escrever em elementos input com a propriedade value
-- [ ] Alterar o conteúdo de elementos div ou p com a propriedade innerHTML ou textContent
-- [ ] Manipulação de elemento de listagem, como checkbox, radio ou select
-- [ ] Acesso aos elementos de um formulário via hierarquia (caminho) de objetos, ou seja, array forms e elements
+### Code Splitting
 
-jQuery
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- [ ] Uso de seletores CSS - id, classe e tag
-- [ ] Uso de seletores hierárquicos estáticos - ancestral/descendente, pai/filho, anterior/próximo
-- [ ] Uso de seletores hierárquicos dinâmicos - parent/children/next
-- [ ] Efeitos fade ou slide
-- [ ] Especificar o tratador de algum evento via jQuery
-- [ ] Manipulação do CSS via função css() e addClass()/removeClass()
-- [ ] Manipulação do conteúdo de um input e div usando jQuery
-- [ ] Aplicar um plugin do jQuery (por exemplo, jQuery Mask Plugin)
+### Analyzing the Bundle Size
 
-Web Storage
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- [ ] LocalStorage ou SessionStorage
-- [ ] Leitura e escrita de dados simples
-- [ ] Leitura e escrita de JSON
+### Making a Progressive Web App
 
-Ajax com Backend
-- [ ] Implementação funcional (basta fazer funcionar uma requisição) do backend em ExpressJS na plataforma Node e requisições AJAX.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
